@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+gem "simple_form", github: "heartcombo/simple_form"
+gem 'faker'
 
 ruby "3.1.2"
 
